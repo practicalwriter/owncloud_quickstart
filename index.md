@@ -26,11 +26,11 @@ If you are curious about advanced topics or run into problems, the following res
 
 ## Installing and Configuring ownCloud Server Free Community-Supported Version
 
-This is a brief guide to installing ownCloud on a fresh installation of Ubuntu 18.04, the officially recommended environment for running ownCloud server. For alternative installation options, please refer to the [ownCloud Documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/index.html).
+This is a brief guide to installing ownCloud on a fresh installation of Ubuntu 18.04, the officially recommended environment for running ownCloud. For alternative installation options, please refer to the [ownCloud Documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/index.html).
 
 ### Assumptions
 
-- You are working from fresh installation of [Ubuntu 18.04](https://www.ubuntu.com/download/server) with SSH enabled.
+- You are working from a fresh installation of [Ubuntu 18.04](https://www.ubuntu.com/download/server) and have enabled SSH.
 - You are connected as the root user.
 - Your ownCloud directory is located in `var/www/owncloud/`
 
@@ -93,7 +93,7 @@ apt install -y \
 
 ---
 **WARNING**
-Ubuntu 18.04 only uses version 1 of the SMB protocol. This is a known limitation of smbclient 4.7.6.
+Ubuntu 18.04 only uses version 1 of the SMB protocol, a known limitation of smbclient 4.7.6.
 
 ---
 
@@ -184,7 +184,7 @@ occ config:system:set trusted_domains 1 --value="$myip"
 ```
 ### Advanced Installation Topics
 
-Refer to the [ownCloud documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html) if you would like to [set up a cron job](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#set-up-a-cron-job),[configure caching and file locking](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#configure-caching-and-file-locking), or [configure log rotation](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#configure-log-rotation).
+Refer to the [ownCloud documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html) to [set up a cron job](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#set-up-a-cron-job),[configure caching and file locking](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#configure-caching-and-file-locking), or [configure log rotation](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#configure-log-rotation).
 
 ### Finalizing the Installation
 
@@ -195,6 +195,8 @@ cd /var/www/
 chown -R www-data. owncloud
 ```
 
-Congratulations, ownCloud is now installed. Direct your web browser to your ownCloud installation to confirm that it is ready to use.
+Congratulations! Direct your web browser to your ownCloud installation to confirm that you are ready to take the next steps.
+
+
 
 
