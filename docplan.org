@@ -1,4 +1,4 @@
-* TODO Prep Work [2/4]
+* TODO Prep Work [3/4]
 ** DONE Write Doc Plan
 :LOGBOOK:
 CLOCK: [2020-12-09 Wed 19:55]--[2020-12-09 Wed 20:15] =>  0:20
@@ -10,10 +10,16 @@ CLOCK: [2020-12-09 Wed 19:55]--[2020-12-09 Wed 20:15] =>  0:20
 :LOGBOOK:
 CLOCK: [2020-12-09 Wed 20:33]--[2020-12-09 Wed 20:33] =>  0:00
 :END:
-** TODO Setup GitHub
+** DONE Setup GitHub
 :PROPERTIES:
 :Effort:   0:15
 :END:
+:LOGBOOK:
+CLOCK: [2020-12-09 Wed 21:00]--[2020-12-09 Wed 21:18] =>  0:18
+:END:
+*** DONE Setup SSH key for new computer
+*** DONE Update email
+*** DONE Set remote / origin
 ** TODO Outline [0/2]
 *** TODO Find RH Quickstart Example
 :PROPERTIES:
