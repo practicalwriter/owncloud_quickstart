@@ -1,0 +1,80 @@
+* TODO Prep Work [2/4]
+** DONE Write Doc Plan
+:LOGBOOK:
+CLOCK: [2020-12-09 Wed 19:55]--[2020-12-09 Wed 20:15] =>  0:20
+:END:
+** DONE Setup Git
+:PROPERTIES:
+:Effort:   0:15
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-09 Wed 20:33]--[2020-12-09 Wed 20:33] =>  0:00
+:END:
+** TODO Setup GitHub
+:PROPERTIES:
+:Effort:   0:15
+:END:
+** TODO Outline [0/2]
+*** TODO Find RH Quickstart Example
+:PROPERTIES:
+:Effort:   0:15
+:END:
+**** TODO Tailor outline to example
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** TODO Outline assessment requirements
+:PROPERTIES:
+:Effort:   0:30
+:END:
+**** TODO Find information based on ownCloud docs
+:PROPERTIES:
+:Effort:   0:45
+:END:
+* TODO Write [0/2]
+** TODO Draft 1
+*** TODO Garbage Draft
+:PROPERTIES:
+:Effort:   0:45
+:END:
+*** TODO Lint
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** TODO Edit
+:PROPERTIES:
+:Effort:   0:30
+:END:
+** TODO Draft 2
+*** TODO Read
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** TODO Rewrite
+:PROPERTIES:
+:Effort:   0:45
+:END:
+*** TODO Lint
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** TODO Edit
+:PROPERTIES:
+:Effort:   0:45
+:END:
+* TODO Publish to GitHub Pages [/]
+** TODO Convert to MD
+:PROPERTIES:
+:Effort:   0:15
+:END:
+** TODO WKHTMLtoPDF
+:PROPERTIES:
+:Effort:   0:15
+:END:
+* TODO Submit [0/3]
+:PROPERTIES:
+:Effort:   0:15
+:END:
+** TODO Link to GH Pages
+** TODO PDF
+** TODO Repo
