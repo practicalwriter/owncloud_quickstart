@@ -1,5 +1,5 @@
 * ownCloud Quickstart
-* TODO Prep Work [3/4]
+* TODO Prep Work [4/4]
 ** DONE Write Doc Plan
 :LOGBOOK:
 CLOCK: [2020-12-09 Wed 19:55]--[2020-12-09 Wed 20:15] =>  0:20
@@ -21,21 +21,29 @@ CLOCK: [2020-12-09 Wed 21:10]--[2020-12-09 Wed 21:24] =>  0:14
 *** DONE Setup SSH key for new computer
 *** DONE Update email
 *** DONE Set remote / origin
-** TODO Outline [1/4]
+** DONE Outline [4/4]
+:PROPERTIES:
+:Effort:   1:45
+:END:
+:LOGBOOK:
+CLOCK: [2020-12-10 Thu 15:18]--[2020-12-10 Thu 15:38] =>  0:20
+CLOCK: [2020-12-10 Thu 13:15]--[2020-12-10 Thu 13:45] =>  0:30
+- Scope out guide. Outline up to Ubuntu installation.
+:END:
 *** DONE Find RH Quickstart Example
 :PROPERTIES:
 :Effort:   0:15
 :END:
 https://access.redhat.com/documentation/en-us/red_hat_satellite/6.3/pdf/quick_start_guide/Red_Hat_Satellite-6.3-Quick_Start_Guide-en-US.pdf
-*** TODO Tailor outline to example
-:PROPERTIES:
-:Effort:   0:15
-:END:
-*** TODO Outline assessment requirements
+*** DONE Outline assessment requirements
 :PROPERTIES:
 :Effort:   0:30
 :END:
-*** TODO Find information based on ownCloud docs
+*** DONE Tailor outline to example
+:PROPERTIES:
+:Effort:   0:15
+:END:
+*** DONE Find information based on ownCloud docs
 :PROPERTIES:
 :Effort:   0:45
 :END:
@@ -70,7 +78,7 @@ https://access.redhat.com/documentation/en-us/red_hat_satellite/6.3/pdf/quick_st
 :PROPERTIES:
 :Effort:   0:45
 :END:
-* TODO Publish to GitHub Pages [/]
+* TODO Publish to GitHub Pages [0/2]
 ** TODO Convert to MD
 :PROPERTIES:
 :Effort:   0:15
