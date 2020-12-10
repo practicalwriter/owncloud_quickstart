@@ -78,15 +78,9 @@ https://access.redhat.com/documentation/en-us/red_hat_satellite/6.3/pdf/quick_st
 :PROPERTIES:
 :Effort:   0:45
 :END:
-* TODO Publish to GitHub Pages [0/2]
-** TODO Convert to MD
-:PROPERTIES:
-:Effort:   0:15
-:END:
-** TODO WKHTMLtoPDF
-:PROPERTIES:
-:Effort:   0:15
-:END:
+* TODO Publish to GitHub Pages [1/2]
+** DONE Setup GH Pages
+** TODO Push main to GH Pages branch
 * TODO Submit [0/3]
 :PROPERTIES:
 :Effort:   0:15
