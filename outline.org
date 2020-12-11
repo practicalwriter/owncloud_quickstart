@@ -1,6 +1,12 @@
 * ownCloud Quick Start Guide on Ubuntu 18.04
 ** Abstract
+:LOGBOOK:
+CLOCK: [2020-12-10 Thu 16:54]--[2020-12-10 Thu 17:04] =>  0:10
+:END:
 *** Reference docs and additional resources
+:LOGBOOK:
+CLOCK: [2020-12-10 Thu 17:17]--[2020-12-10 Thu 17:26] =>  0:09
+:END:
 - [[https://doc.owncloud.org/][ownCloud Documentation]]
 - [[https://www.youtube.com/channel/UC_4gez4lsWqciH-otOlXo5w][Official ownCloud YouTube channel]]
 - [[https://www.youtube.com/channel/UCA8Ehsdu3KaxSz5KOcCgHbw][ownClouders Community YouTube channel]]
@@ -11,18 +17,14 @@
 - [[https://doc.owncloud.com/desktop/][ownCloud Desktop Client]]
 - [[https://doc.owncloud.com/android/][ownCloud Android App]]
 - [[https://doc.owncloud.com/ios/][ownCloud iOS App]]
-*** Three editions
-**** Free community-supported server
-**** Standard Subscription
-**** Enterprise Subscription
-** Should you use this Quick Start guide?
-*** Admins
-"This guide is for users who want to install, administer, and optimize their ownCloud servers."
-*** Users
-Though this guide is primarily targeted to adminstrators and developers, users looking to connect to an already existing ownCloud server via desktop or mobile apps can skip to the section [[*Connecting to the ownCloud server on via desktop or mobile client]]. For a more detailed discussion of advanced topics for users, please consult the appropriate documentation.
 
 ** Installing and configuring an ownCloud Server on Ubuntu 18.04
+:LOGBOOK:
+CLOCK: [2020-12-10 Thu 17:40]--[2020-12-10 Thu 18:38] =>  0:58
+:END:
 https://doc.owncloud.com/server/admin_manual/installation/ubuntu_18_04.html
+
+*** Assumptions
 *** Officially Recommended Environment
 Officially Recommended Environment
 For best performance, stability, support, and full functionality we officially recommend and support:
@@ -39,7 +41,7 @@ For best performance, stability, support, and full functionality we officially r
 https://doc.owncloud.com/desktop/advanced_usage/configuration_file.html#proxy-section
 ** Adding a user account
 https://doc.owncloud.com/server/10.6/admin_manual/configuration/user/user_configuration.html
-** Connecting to the ownCloud server on via desktop or mobile client
+** Connecting to the ownCloud server via desktop or mobile client
 https://doc.owncloud.com/ios/
 https://doc.owncloud.com/android/
 https://doc.owncloud.com/desktop/installing.html

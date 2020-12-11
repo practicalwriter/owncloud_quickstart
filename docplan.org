@@ -49,6 +49,11 @@ https://access.redhat.com/documentation/en-us/red_hat_satellite/6.3/pdf/quick_st
 :END:
 * TODO Write [0/2]
 ** TODO Draft 1
+:LOGBOOK:
+CLOCK: [2020-12-10 Thu 16:54]--[2020-12-10 Thu 17:04] =>  0:10
+CLOCK: [2020-12-10 Thu 17:17]--[2020-12-10 Thu 17:26] =>  0:09
+CLOCK: [2020-12-10 Thu 17:40]--[2020-12-10 Thu 18:38] =>  0:58
+:END:
 *** TODO Garbage Draft
 :PROPERTIES:
 :Effort:   0:45
