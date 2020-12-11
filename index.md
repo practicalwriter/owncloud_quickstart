@@ -261,10 +261,7 @@ Variable | Default | Definition
 -------- | ------- | ----------
 `host` | 127.0.0.1 | The proxy server's IP address
 `port` | 8080 | Proxy server's listening port
-`type` | 2 | - 0: System Proxy
-           | - 1: SOCKS5 Proxy
-           | - 2: No Proxy
-           | - 3: HTTP(S) Proxy
+`type` | 2 | 0: System Proxy <br />1: SOCKS5 Proxy <br />2: No Proxy <br /> 3: HTTP(S) Proxy
              
 
 Visit the ownCloud documentation for more information on editing your [configuration file](https://doc.owncloud.com/desktop/advanced_usage/configuration_file.html).
