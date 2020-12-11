@@ -211,7 +211,7 @@ Locate the text fields at the top of the Users page, then:
 - Assign optional membership to **Groups**.
 - Click **`Create`** to create the new user.
 
-Usernames may contain uppercase and lowercase letters(A-Z, a-z), numbers (0-9), dashes(-), underscores(_), periods, and *at* signs (@). Once you have created the user, you can add their **Full Name**. Alternatively, the user can edit this option from their account.
+Usernames may contain uppercase and lowercase letters (A-Z, a-z), numbers (0-9), dashes (-), underscores (_), periods (.), and *at* signs (@). Once you have created the user, you can add their **Full Name**. Alternatively, the user can edit this option from their account.
 
 ## Connecting Users to the ownCloud Server
 
@@ -219,7 +219,7 @@ Users can connect to the ownCloud server through desktop, mobile, and command-li
 
 ### ownCloud Desktop App
 
-The ownCloud Desktop App is available for Windows, Mac OS X, and [Linux](https://download.owncloud.com/desktop/ownCloud/stable/latest/linux/download/). Windows and Mac OS X users can download the latest release from the [ownCloud download page](https://owncloud.com/desktop-app/). This page will walk you through the specifics of downloading and install installation instructions for your operating system.
+The ownCloud Desktop App is available for Windows, Mac OS X, and [Linux](https://download.owncloud.com/desktop/ownCloud/stable/latest/linux/download/). Windows and Mac OS X users can download the latest release from the [ownCloud download page](https://owncloud.com/desktop-app/). This page will walk you through downloading and installing the desktop app on your operating system.
 
 Linux users will need to add a repository appropriate to their distribution, install and verify the signing key, and install the desktop app through their package manager. 
 
@@ -262,9 +262,10 @@ Variable | Default | Definition
 `host` | 127.0.0.1 | The proxy server's IP address
 `port` | 8080 | Proxy server's listening port
 `type` | 2 | - 0: System Proxy
-             - 1: SOCKS5 Proxy
-             - 2: No Proxy
-             - 3: HTTP(S) Proxy
+           | - 1: SOCKS5 Proxy
+           | - 2: No Proxy
+           | - 3: HTTP(S) Proxy
+             
 
 Visit the ownCloud documentation for more information on editing your [configuration file](https://doc.owncloud.com/desktop/advanced_usage/configuration_file.html).
 
