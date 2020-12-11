@@ -3,7 +3,7 @@
 
 ## Abstract
 
-The ownCloud Quick Start Guide for Ubuntu 18.04 will help you install and configure an ownCloud server. This guide is aimed primarily at administrators. If you want to connect a desktop or mobile client to an ownCloud server, please refer to [Connecting Users to the ownCloud server](#connecting-users-to-the-owncloud-server).
+The ownCloud Quick Start Guide for Ubuntu 18.04 will help you install and configure an ownCloud server. This guide is aimed primarily at administrators. If you want to connect a desktop or mobile client to an ownCloud server, please refer to [Connecting Users to the ownCloud Server](#connecting-users-to-the-owncloud-server).
 
 ## Additional Resources
 
@@ -26,7 +26,7 @@ If you are curious about advanced topics or run into problems, the following res
 
 ## Installing and Configuring ownCloud Server
 
-This is a brief guide to installing ownCloud on a fresh installation of Ubuntu 18.04, the officially recommended environment for running ownCloud. For alternative installation options, please refer to the [ownCloud Documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/index.html).
+This guide will focus on installing the ownCloud server on a fresh installation of Ubuntu 18.04, the officially recommended environment for running ownCloud. For alternative installation options, please refer to the [ownCloud Documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/index.html).
 
 ### Assumptions
 
@@ -220,13 +220,13 @@ Users can connect to the ownCloud server through desktop, mobile, and command-li
 
 The ownCloud Desktop App is available for Windows, Mac OS X, and  Linux. Windows and Mac OS X users can download the latest release from the [ownCloud download page](https://owncloud.com/desktop-app/). This page will walk you through the specifics of downloading and installing your installation.
 
-Linux users will need to add repository appropriate to their distribution, install and verify the signing key, and install the desktop app through their package manager. 
+Linux users will need to add a repository appropriate to their distribution, install and verify the signing key, and install the desktop app through their package manager. 
 
 ---
 
 **NOTE** 
 
-Linux users need a password manager to login to the sync client automatically.
+Linux users need a password manager to log in to the sync client automatically.
 
 ---
 
@@ -234,7 +234,7 @@ For advanced installation topics, refer to the [ownCloud Documentation](https://
 
 #### Installation Wizard
 
-The installation wizard will guide your the process of setting up your account and configuring your desktop app. To complete the process, you will need to know:
+The installation wizard will guide you through setting up your account and configuring your desktop app. To complete the process, you will need to know:
 
 - The URL of your ownCloud server.
 - Your ownCloud username and password.
@@ -246,7 +246,7 @@ Click **Connect** to connect the desktop app to your ownCloud server. Once you a
 
 #### Configuring Proxy Connections
 
-You may configure a proxy connection by editing your a configuration file. The file's location varies depending on the operating system:
+You may configure a proxy connection by editing your configuration file. The file's location varies depending on the operating system:
 
 Operating System | Location
 ---------------- | --------
@@ -267,7 +267,7 @@ Variable | Default | Definition
 
 ### ownCloud iOS and Android App
 
-You can access your ownCloud server through the web interface on your mobile device without installing additional apps. In addition to a simplified user interface, the iOS and Android have several advantages over the web interface:
+You can access your ownCloud server through the web interface on your mobile device without installing additional apps. In addition to a simplified user interface, the iOS and Android apps have several advantages over the web interface:
 
 - Sync files automatically
 - Upload photos and videos from your device
@@ -275,7 +275,6 @@ You can access your ownCloud server through the web interface on your mobile dev
 - Add files from your mobile to ownCloud
 - Share files with other ownCloud users and groups
 
-The easiest way to install the ownCloud app log in using a web browser on your mobile device. You will find links to download the iOS and Android apps on your Personal page. Links and further information are available on the ownCloud [installation page](https://owncloud.org/install/).
+To install the ownCloud app, log into your ownCloud account using a web browser on your mobile device. You will find links to download the iOS and Android apps on your *Personal* page. Links and further information are available on the ownCloud [installation page](https://owncloud.org/install/).
 
-From there, a connection wizard help you access your ownCloud server.
-
+From there, a connection wizard will help you connect to your ownCloud server.
