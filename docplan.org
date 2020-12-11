@@ -47,43 +47,26 @@ https://access.redhat.com/documentation/en-us/red_hat_satellite/6.3/pdf/quick_st
 :PROPERTIES:
 :Effort:   0:45
 :END:
-* TODO Write [0/2]
-** TODO Draft 1
+* TODO Write [2/4]
+** DONE Draft 1
 :LOGBOOK:
 CLOCK: [2020-12-10 Thu 16:54]--[2020-12-10 Thu 17:04] =>  0:10
 CLOCK: [2020-12-10 Thu 17:17]--[2020-12-10 Thu 17:26] =>  0:09
 CLOCK: [2020-12-10 Thu 17:40]--[2020-12-10 Thu 18:38] =>  0:58
 :END:
-*** TODO Garbage Draft
+*** DONE Garbage Draft
 :PROPERTIES:
 :Effort:   0:45
 :END:
-*** TODO Lint
+*** DONE Lint
 :PROPERTIES:
 :Effort:   0:15
 :END:
-*** TODO Edit
+*** DONE Edit
 :PROPERTIES:
 :Effort:   0:30
 :END:
-** TODO Draft 2
-*** TODO Read
-:PROPERTIES:
-:Effort:   0:15
-:END:
-*** TODO Rewrite
-:PROPERTIES:
-:Effort:   0:45
-:END:
-*** TODO Lint
-:PROPERTIES:
-:Effort:   0:15
-:END:
-*** TODO Edit
-:PROPERTIES:
-:Effort:   0:45
-:END:
-* TODO Publish to GitHub Pages [1/2]
+** TODO Publish to GitHub Pages [1/2]
 ** DONE Setup GH Pages
 ** TODO Push main to GH Pages branch
 * TODO Submit [0/3]
