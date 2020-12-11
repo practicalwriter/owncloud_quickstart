@@ -1,9 +1,9 @@
-# ownCloud Quick Start Guide for Ubuntu 18.04 LTS
+# ownCloud Quick Start Guide for Ubuntu 18.04
 [Michael Ryan Peter](michael@writerly.dev) [https://writerly.dev](https://writerly.dev)
 
 ## Abstract
 
-The ownCloud Quick Start Guide for Ubuntu 18.04 LTS is written to help you install, configure, and connect an ownCloud server. This guide is aimed primarily at administrators. If you want to connect a desktop or mobile client to an ownCloud server, please refer to [Connecting Users to the ownCloud server](#connection-users-to-the-owncloud-server).
+The ownCloud Quick Start Guide for Ubuntu 18.04 will help you install and configure an ownCloud server. This guide is aimed primarily at administrators. If you want to connect a desktop or mobile client to an ownCloud server, please refer to [Connecting Users to the ownCloud server](#connecting-users-to-the-owncloud-server).
 
 ## Additional Resources
 
@@ -199,7 +199,7 @@ Congratulations! Direct your web browser to your ownCloud installation to confir
 
 ## User Administration
 
-Before you create a new user, familiarize yourself with the Users page on your admin dashboard. Refer to the [User Configuration](https://doc.owncloud.com/server/10.6/admin_manual/configuration/user/user_configuration.html) page of the ownCloud documenation for a detailed explanation of the dashboard, group management, and advanced adminstrator tasks.
+Before you create a new user, familiarize yourself with the Users page on your admin dashboard. Refer to the [User Configuration](https://doc.owncloud.com/server/10.6/admin_manual/configuration/user/user_configuration.html) page of the ownCloud documentation for a detailed explanation of the dashboard, group management, and advanced administrator tasks.
 
 #### Creating a New User
 
@@ -214,17 +214,39 @@ Usernames may contain uppercase and lowercase letters(A-Z, a-z), numbers (0-9), 
 
 ## Connecting Users to the ownCloud Server
 
-Users can connect to the ownCloud server through desktop, mobile, and command-line clients. 
+Users can connect to the ownCloud server through desktop, mobile, and command-line apps. If you would like information on connecting through the command-line, please refer to the [ownCloud documentation](https://doc.owncloud.com/desktop/advanced_usage/command_line_client.html).
 
-### Desktop Client
+### ownCloud Desktop App
 
-#### Installing
+The ownCloud Desktop App is available for Windows, Mac OS X, and  Linux. Windows and Mac OS X users can download the latest release from the [ownCloud download page](https://owncloud.com/desktop-app/). This page will walk you through the specifics of downloading and installing your installation.
 
-#### Using 
+Linux users will need to add repository appropriate to their distribution, install and verify the signing key, and install the desktop app through their package manager. 
+
+---
+
+**NOTE** 
+
+Linux users need a password manager to login to the sync client automatically.
+
+---
+
+For advanced installation topics, refer to the [ownCloud Documentation](https://doc.owncloud.com/desktop/installing.html).
+
+#### Installation Wizard
+
+The installation wizard will guide your the process of setting up your account and configuring your desktop app. To complete the process, you will need to know:
+
+- The URL of your ownCloud server.
+- Your ownCloud username and password.
+
+You will be given the option to sync all your files on the ownCloud server or select individual folders. You are given the option to change your default local sync folder from `ownCloud` in your home directory or to skip the folder configuration.
+
+Click **Connect** to connect the desktop app to your ownCloud server. Once you are connected, the desktop app will start syncing your files. You may also connect to the web interface or open your local folder through the desktop app.
+
 
 #### Configuring Proxy Connections
 
-The ownCloud Client accesses a configuration file. The file's location varies depending on the operating system:
+You may configure a proxy connection by editing your a configuration file. The file's location varies depending on the operating system:
 
 Operating System | Location
 ---------------- | --------
@@ -232,11 +254,28 @@ Linux | `$HOME/.config/ownCloud/owncloud.cfg`
 Microsoft Windows | `%APPDATA%\ownCloud\owncloud.cfg`
 macOS | `$HOME/Library/Preferences/ownCloud/owncloud.cfg`
 
-### iOS App
+In the `[Proxy]` section, you can define the proxy server's IP address, listening port, and type.
 
-### Android Client App
+Variable | Default | Definition
+-------- | ------- | ----------
+`host` | 127.0.0.1 | The proxy server's IP address
+`port` | 8080 | Proxy server's listening port
+`type` | 2 | - 0: System Proxy
+             - 1: SOCKS5 Proxy
+             - 2: No Proxy
+             - 3: HTTP(S) Proxy
 
-### Command-Line Client
+### ownCloud iOS and Android App
 
+You can access your ownCloud server through the web interface on your mobile device without installing additional apps. In addition to a simplified user interface, the iOS and Android have several advantages over the web interface:
 
+- Sync files automatically
+- Upload photos and videos from your device
+- Two-factor authentication
+- Add files from your mobile to ownCloud
+- Share files with other ownCloud users and groups
+
+The easiest way to install the ownCloud app log in using a web browser on your mobile device. You will find links to download the iOS and Android apps on your Personal page. Links and further information are available on the ownCloud [installation page](https://owncloud.org/install/).
+
+From there, a connection wizard help you access your ownCloud server.
 
