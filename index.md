@@ -197,6 +197,46 @@ chown -R www-data. owncloud
 
 Congratulations! Direct your web browser to your ownCloud installation to confirm that you are ready to take the next steps.
 
+## User Administration
+
+Before you create a new user, familiarize yourself with the Users page on your admin dashboard. Refer to the [User Configuration](https://doc.owncloud.com/server/10.6/admin_manual/configuration/user/user_configuration.html) page of the ownCloud documenation for a detailed explanation of the dashboard, group management, and advanced adminstrator tasks.
+
+#### Creating a New User
+
+Locate the text fields at the top of the Users page, then:
+
+- Create a **Username**.
+- Enter the user's **Email**.
+- Assign optional membership to **Groups**.
+- Click **`Create`** to create the new user.
+
+Usernames may contain uppercase and lowercase letters(A-Z, a-z), numbers (0-9), dashes(-), underscores(_), periods, and *at* signs (@). Once you have created the user, you can add their **Full Name**. Alternatively, the user can edit this option from their account.
+
+## Connecting Users to the ownCloud Server
+
+Users can connect to the ownCloud server through command-line, desktop and mobile clients. 
+
+### Desktop Client
+
+#### Installing
+
+#### Using 
+
+#### Configuring Proxy Connections
+
+The ownCloud Client accesses a configuration file. The file's location varies depending on the operating system:
+
+Operating System | Location
+---------------- | --------
+Linux | `$HOME/.config/ownCloud/owncloud.cfg`
+Microsoft Windows | `%APPDATA%\ownCloud\owncloud.cfg`
+macOS | `$HOME/Library/Preferences/ownCloud/owncloud.cfg`
+
+### iOS App
+
+### Android Client App
+
+### Command-Line Client
 
 
 
