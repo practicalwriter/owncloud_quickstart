@@ -93,6 +93,7 @@ apt install -y \
 
 ---
 **WARNING**
+
 Ubuntu 18.04 uses version 1 of the SMB protocol, a known limitation of smbclient 4.7.6.
 
 ---
@@ -218,7 +219,7 @@ Users can connect to the ownCloud server through desktop, mobile, and command-li
 
 ### ownCloud Desktop App
 
-The ownCloud Desktop App is available for Windows, Mac OS X, and  Linux. Windows and Mac OS X users can download the latest release from the [ownCloud download page](https://owncloud.com/desktop-app/). This page will walk you through the specifics of downloading and installing your installation.
+The ownCloud Desktop App is available for Windows, Mac OS X, and [Linux](https://download.owncloud.com/desktop/ownCloud/stable/latest/linux/download/). Windows and Mac OS X users can download the latest release from the [ownCloud download page](https://owncloud.com/desktop-app/). This page will walk you through the specifics of downloading and install installation instructions for your operating system.
 
 Linux users will need to add a repository appropriate to their distribution, install and verify the signing key, and install the desktop app through their package manager. 
 
@@ -265,9 +266,11 @@ Variable | Default | Definition
              - 2: No Proxy
              - 3: HTTP(S) Proxy
 
+Visit the ownCloud documentation for more information on editing your [configuration file](https://doc.owncloud.com/desktop/advanced_usage/configuration_file.html).
+
 ### ownCloud iOS and Android App
 
-You can access your ownCloud server through the web interface on your mobile device without installing additional apps. In addition to a simplified user interface, the iOS and Android apps have several advantages over the web interface:
+You can access your ownCloud server through the web interface on your mobile device without installing additional apps. In addition to a simplified user interface, the [iOS](https://doc.owncloud.com/ios/) and [Android](https://doc.owncloud.com/android/) apps have several advantages over the web interface:
 
 - Sync files automatically
 - Upload photos and videos from your device
@@ -275,6 +278,6 @@ You can access your ownCloud server through the web interface on your mobile dev
 - Add files from your mobile to ownCloud
 - Share files with other ownCloud users and groups
 
-To install the ownCloud app, log into your ownCloud account using a web browser on your mobile device. You will find links to download the iOS and Android apps on your *Personal* page. Links and further information are available on the ownCloud [installation page](https://owncloud.org/install/).
+To install the ownCloud app, log into your ownCloud account using a web browser on your mobile device. You will find links to download the iOS and Android apps on your **Personal** page. Links and further information are available on the ownCloud [installation page](https://owncloud.org/install/).
 
 From there, a connection wizard will help you connect to your ownCloud server.
