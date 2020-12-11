@@ -1,9 +1,9 @@
 # ownCloud Quick Start Guide for Ubuntu 18.04 LTS
-[[michael@writerly.dev][Michael Ryan Peter]] [[https://writerly.dev]]
+[Michael Ryan Peter](michael@writerly.dev) [https://writerly.dev](https://writerly.dev)
 
 ## Abstract
 
-The ownCloud Quick Start Guide for Ubuntu 18.04 LTS is written to help you install, configure, and connect an ownCloud server. This guide is aimed primarily at administrators. If you are a user wishing to connect your desktop or mobile client to an ownCloud server, please refer to [Connecting to the ownCloud server via desktop or mobile client](#connection-to-the-owncloud-server-via-desktop-or-mobile-client).
+The ownCloud Quick Start Guide for Ubuntu 18.04 LTS is written to help you install, configure, and connect an ownCloud server. This guide is aimed primarily at administrators. If you want to connect a desktop or mobile client to an ownCloud server, please refer to [Connecting Users to the ownCloud server](#connection-users-to-the-owncloud-server).
 
 ## Additional Resources
 
@@ -24,7 +24,7 @@ If you are curious about advanced topics or run into problems, the following res
 - [ownClouders Community YouTube channel](https://www.youtube.com/channel/UCA8Ehsdu3KaxSz5KOcCgHbw)
 - [ownCloud Planet for news and developer blogs](https://owncloud.org/news/)
 
-## Installing and Configuring ownCloud Server Free Community-Supported Version
+## Installing and Configuring ownCloud Server
 
 This is a brief guide to installing ownCloud on a fresh installation of Ubuntu 18.04, the officially recommended environment for running ownCloud. For alternative installation options, please refer to the [ownCloud Documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/index.html).
 
@@ -93,7 +93,7 @@ apt install -y \
 
 ---
 **WARNING**
-Ubuntu 18.04 only uses version 1 of the SMB protocol, a known limitation of smbclient 4.7.6.
+Ubuntu 18.04 uses version 1 of the SMB protocol, a known limitation of smbclient 4.7.6.
 
 ---
 
@@ -184,7 +184,7 @@ occ config:system:set trusted_domains 1 --value="$myip"
 ```
 ### Advanced Installation Topics
 
-Refer to the [ownCloud documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html) to [set up a cron job](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#set-up-a-cron-job),[configure caching and file locking](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#configure-caching-and-file-locking), or [configure log rotation](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#configure-log-rotation).
+Refer to the [ownCloud documentation](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html) to [set up a cron job](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#set-up-a-cron-job), [configure caching and file locking](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#configure-caching-and-file-locking), or [configure log rotation](https://doc.owncloud.com/server/10.6/admin_manual/installation/ubuntu_18_04.html#configure-log-rotation).
 
 ### Finalizing the Installation
 
@@ -214,7 +214,7 @@ Usernames may contain uppercase and lowercase letters(A-Z, a-z), numbers (0-9), 
 
 ## Connecting Users to the ownCloud Server
 
-Users can connect to the ownCloud server through command-line, desktop and mobile clients. 
+Users can connect to the ownCloud server through desktop, mobile, and command-line clients. 
 
 ### Desktop Client
 
